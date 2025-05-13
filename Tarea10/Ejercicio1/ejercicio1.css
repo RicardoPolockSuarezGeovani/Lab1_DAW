@@ -1,0 +1,30 @@
+/* Estilo base para pantallas grandes (más de 768px) */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    transition: background-color 0.5s ease;
+}
+
+/* Pantallas medianas (entre 480px y 768px) */
+@media (max-width: 768px) and (min-width: 481px) {
+    body {
+        background-color: orange;
+    }
+}
+
+/* Pantallas pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
